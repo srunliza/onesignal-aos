@@ -70,7 +70,15 @@ dependencies {
     // OneSignal SDK
     implementation("com.onesignal:OneSignal:[5.0.0, 5.99.99]")
 
-    /* okhttp3 */
+    // okhttp3
     implementation ("com.squareup.okhttp3:okhttp:4.10.0")
     implementation ("com.squareup.okhttp3:logging-interceptor:4.10.0")
+
+    // Retrofit
+    implementation("com.squareup.retrofit2:retrofit:2.11.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.11.0")
+
+
+
+
 }
